@@ -3,6 +3,7 @@ from project_root.game import Game
 from project_root.menu import create_menu
 from project_root.person import draw_person
 from project_root.enemy import draw_enemy
+from project_root.commands import ShootArrowCommand, ClearScreenCommand, RestartGameCommand
 
 # Налаштування вікна
 screen = turtle.Screen()
@@ -25,10 +26,10 @@ draw_enemy(game.enemy_turtle)
 
 # Налаштування клавіш
 screen.listen()
-screen.onkey(game.shoot_arrow, "s")
-screen.onkey(game.clear_screen, "c")
+screen.onkey(ShootArrowCommand(game).execute, "s")
+screen.onkey(ClearScreenCommand(game).execute, "c")
 screen.onkey(turtle.bye, "q")
-screen.onkey(game.restart_game, "r")
+screen.onkey(RestartGameCommand(game).execute, "r")
 
 # Запускаємо головний цикл програми
 screen.mainloop()

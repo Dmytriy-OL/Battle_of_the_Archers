@@ -5,7 +5,7 @@ def draw_person():
     turtle.speed(0)
     turtle.color("black")
 
-    # Малюємо обличчя
+    # Drawing the face
     turtle.penup()
     turtle.goto(-200, -150)
     turtle.pendown()
@@ -13,37 +13,37 @@ def draw_person():
     turtle.circle(50)
     turtle.end_fill()
 
-    # Малюємо тіло
+    # Drawing the body
     turtle.penup()
     turtle.goto(-200, -150)
     turtle.pendown()
     turtle.goto(-200, -250)
 
-    # Малюємо ліву ногу
+    # Drawing the left leg
     turtle.penup()
     turtle.goto(-200, -250)
     turtle.pendown()
     turtle.goto(-220, -300)
 
-    # Малюємо праву ногу
+    # Drawing the right leg
     turtle.penup()
     turtle.goto(-200, -250)
     turtle.pendown()
     turtle.goto(-180, -300)
 
-    # Малюємо ліву руку
+    # Drawing the left arm
     turtle.penup()
     turtle.goto(-200, -200)
     turtle.pendown()
     turtle.goto(-240, -250)
 
-    # Малюємо праву руку
+    # Drawing the right arm
     turtle.penup()
     turtle.goto(-200, -200)
     turtle.pendown()
     turtle.goto(-160, -250)
 
-    # Малюємо лук
+    # Drawing the bow
     turtle.penup()
     turtle.goto(-240, -250)
     turtle.pendown()

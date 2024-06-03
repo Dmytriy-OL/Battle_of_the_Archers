@@ -3,7 +3,7 @@ def draw_enemy(enemy_turtle):
     enemy_turtle.speed(0)
     enemy_turtle.color("red")
 
-    # Малюємо обличчя
+    # Drawing the face
     enemy_turtle.penup()
     enemy_turtle.goto(200, -150)
     enemy_turtle.pendown()
@@ -11,37 +11,37 @@ def draw_enemy(enemy_turtle):
     enemy_turtle.circle(50)
     enemy_turtle.end_fill()
 
-    # Малюємо тіло
+    # Drawing the body
     enemy_turtle.penup()
     enemy_turtle.goto(200, -150)
     enemy_turtle.pendown()
     enemy_turtle.goto(200, -250)
 
-    # Малюємо ліву ногу
+    # Drawing the left leg
     enemy_turtle.penup()
     enemy_turtle.goto(200, -250)
     enemy_turtle.pendown()
     enemy_turtle.goto(180, -300)
 
-    # Малюємо праву ногу
+    # Drawing the right leg
     enemy_turtle.penup()
     enemy_turtle.goto(200, -250)
     enemy_turtle.pendown()
     enemy_turtle.goto(220, -300)
 
-    # Малюємо ліву руку
+    # Drawing the left arm
     enemy_turtle.penup()
     enemy_turtle.goto(200, -200)
     enemy_turtle.pendown()
     enemy_turtle.goto(160, -250)
 
-    # Малюємо праву руку
+    # Drawing the right arm
     enemy_turtle.penup()
     enemy_turtle.goto(200, -200)
     enemy_turtle.pendown()
     enemy_turtle.goto(240, -250)
 
-    # Малюємо лук
+    # Drawing the bow
     enemy_turtle.penup()
     enemy_turtle.goto(240, -250)
     enemy_turtle.pendown()
@@ -51,3 +51,4 @@ def draw_enemy(enemy_turtle):
     enemy_turtle.goto(240, -250)
 
     enemy_turtle.hideturtle()
+q
