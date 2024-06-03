@@ -51,4 +51,3 @@ def draw_enemy(enemy_turtle):
     enemy_turtle.goto(240, -250)
 
     enemy_turtle.hideturtle()
-q
